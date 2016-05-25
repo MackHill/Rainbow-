@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rainbow Pony</title>
+<link href= "style.css" rel= "stylesheet">
+<link rel="shortcut icon" type="image/png" href="favicon.ico">
+<meta name="description" content="Get a closer look at the life of rainbow ponies">
+<meta name="keywords" content="rainbow, ponies, butterflies, trippy, awesome, rainbow, blue, red, green, small horses, cupcakes, orange, pink, yellow, cool, amazing, beautiful">
+<meta name="author" content="Mackenzie Hill">
+
+</head>
+
+<body>
+<ul id="navigation">
+	<li><a href= "intro.html">Home</a></Li>
+	<li><a href= "about.html">About</a></Li>
+	<li><a href= "pictures.html">Pictures</a></Li>
+	<li><a href= "events.html">Events</a></Li>
+	<li><a href= "contacts.html">Contacts</a></Li>
+	<li><a href= "merch.html">Merchandise</a></Li>
+	<li><a href= "ponies.html">Ponies</a></Li>
+	<li><a href= "livechat.html">Live Chat with Ponies</a></Li>
+</ul>
+
+<!-- Hidden iframe -->
+<iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
+<!-- Script to redirect to a custom page -->
+<script>
+// replace "ss-submit" with the ID of your submit button
+document.getElementById("ss-submit").addEventListener("click", function(){
+  // adds a delay because the results page loads before the form has a chance to submit
+  setTimeout(function() {
+    // replace the url in quotes below to where you want to the user to be redirected to
+    window.location = "response.html";
+  }, 1000);
+});
+</script>
+<p> Thanks! You're great! </p>
+
+</body>
+</html>
